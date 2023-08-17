@@ -4,7 +4,7 @@ on:
 
 
 jobs:
-  reset-branches:
+  verify-updated:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -14,4 +14,4 @@ jobs:
       - name: Install Git Tools
         uses: PrincipleStudios/scalable-git-branching-tools-installer-action@latest
       - run: |
-          git-verify-updated.ps1
+          git-verify-updated.ps1 -target ${{ github.head_ref }}
