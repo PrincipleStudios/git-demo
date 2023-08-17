@@ -1,8 +1,6 @@
-# Git Demo repository
+# Git Tools Demo repository
 
-This is a very basic repository to demonstrate some basic functionality within git.
-
-Adding some basic changes to the readme...
+This repository is designed to be a testing ground for various git tooling using the scaled git branching strategy. Branches will be tagged and reset periodically for testing purposes.
 
 ## Remotes
 
