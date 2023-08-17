@@ -1,0 +1,7 @@
+on: workflow_dispatch
+jobs:
+  reset-branches:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          git push -f origin e9f0123:feature/outdated
