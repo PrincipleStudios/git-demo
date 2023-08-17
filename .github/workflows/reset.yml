@@ -3,5 +3,7 @@ jobs:
   reset-branches:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
       - run: |
           git push -f origin e9f0123:feature/outdated
