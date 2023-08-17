@@ -5,5 +5,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - run: |
           git push -f origin e9f0123:feature/outdated
