@@ -9,4 +9,4 @@ jobs:
           fetch-depth: 0
       - name: Reset branches
         run: |
-          git push -f origin e9f0123:feature/outdated
+          git push -f origin 6a2ed8d2db15cb0100d80ef22ba270313b8fd3ca:feature/outdated
