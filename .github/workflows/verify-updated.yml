@@ -14,4 +14,4 @@ jobs:
       - name: Install Git Tools
         uses: PrincipleStudios/scalable-git-branching-tools-installer-action@latest
       - run: |
-          git-verify-updated.ps1 -target ${{ github.head_ref }}
+          git-verify-updated.ps1 -recurse -target ${{ github.head_ref }}
