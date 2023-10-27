@@ -1,0 +1,8 @@
+on: workflow_dispatch
+jobs:
+  no-op:
+    runs-on: ubuntu-latest
+    steps:
+      # This action must exist on the default branch or it can't run.
+      - run: |
+          echo "Run this from the _reset-branch branch."
