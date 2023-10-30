@@ -8,3 +8,5 @@ This repository is designed to be a testing ground for various git tooling using
 
 
 [git-dvcs]: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control#_distributed_version_control_systems
+
+# Demo commit
